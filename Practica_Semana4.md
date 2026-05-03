@@ -82,7 +82,7 @@ Se puede observar el comando que se utilizo para crear el primer contenedor con 
 
 
 ## Contenedor Phpmyadmin
-<img src="./Comando_phpmyadmin" width="800" alt="Captura comando phpmyadmin">
+<img src="./Comando_phpmyadmin" width="900" alt="Captura comando phpmyadmin">
 En esta imagen se muestra el comando utilizado para crear el contenedor con phpmyadmin. Cabe recalcar que, primero se utilizo el
 comando: docker run -d --name phpMyAdmin -e PMA_HOST=servidor_mysql -p 8080:80 phpmyadmin. Pero al observer que se cometió un error al crear
 se ejecuto el comando de la imagen para crear de nuevo y de una vez conectarlo a la red ya creada.
